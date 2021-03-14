@@ -1,0 +1,121 @@
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+    height: 100%;
+    width: 137px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 16px;
+    box-shadow: 0 0 10px 5px rgb(173, 167, 167);
+
+}
+
+.logo img {
+    width: 100%;
+}
+
+.sidebar a {
+    padding: 10px 20px 30px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(126, 158, 158);
+    display: block;
+}
+
+.sidebar i {
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
+.sidebar a:hover {
+    color: black;
+    background-color: rgb(233, 239, 241);
+}
+.background {
+    margin-left: 130px;
+    padding: 0px 0px;
+    /* background-color: rgb(243, 246, 247); */
+    background-color:rgb(245, 247, 248) ;
+}
+
+.section1,
+.section2,
+.section3 {
+    min-height: 100vh;
+    padding-top: 10%;
+
+}
+
+.video {
+    align-items: left;
+    justify-content: left;
+    padding-left: 5%;
+    color: rgb(126, 158, 158);
+    font-weight: bolder;
+    font-size: 1.4rem;
+    padding-bottom: 4%;
+}
+
+.insert {
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    margin-left: 10%;
+}
+
+.insert h4 {
+    padding-top: 5%;
+    align-items: center;
+    padding-left: 40%;
+}
+.btn{
+    align-items: center;
+    border-color: transparent;
+}
+#url {
+    width: 90%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    outline: none;
+    background: white;
+
+}
+
+.upload {
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 20%;
+    padding: 80px 50px 0px 50px;
+    height: 20vh;
+    width: 10vh;
+    display: block;
+    background-color: white;
+}
+
+.active {
+    background-color: rgb(159, 192, 201);
+
+}
+
+
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}

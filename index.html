@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo"><img src="img/logo.png"></div>
+        <a href="#student"><i class="fa fa-user-o fa-2x"></i> <br>Students</a>
+        <a href="#lessonplan"><i class="fa fa-book fa-2x"></i><br> Lesson Plan</a>
+        <a href="#setting"><i class="fa fa-cog fa-2x"></i><br> Settings</a>
+
+
+    </div>
+    <div class="background">
+        <section id="student" class="section1">
+            <div class="video">
+                <i class="fa fa-list" aria-hidden="true"> students</i>
+            </div>
+            <div class="insert">
+                <input type="url" name="url" id="url" placeholder="Insert Student here">
+                <button class="btn btn btn-sm">Insert</button>
+                <h4>or</h4>
+            </div>
+            <div class="upload">
+                <h3>Upload</h3>
+            </div>
+        </section>
+
+        <section id="lessonplan" class="section2">
+            <div class="video">
+                <i class="fa fa-play fa-rotate-180" aria-hidden="true"></i> videos
+            </div>
+            <div class="insert">
+                <input type="url" name="url" id="url" placeholder="Insert URL here">
+                <h4>or</h4>
+            </div>
+            <div class="upload">
+                <h3>Upload</h3>
+            </div>
+        </section>
+
+        <section id="setting" class="section3">
+            <div class="video">
+                <i class="fa fa-list" aria-hidden="true"> Setting</i>
+            </div>
+            <div class="insert">
+                <input type="url" name="url" id="url" placeholder="Insert URL here">
+                <h4>or</h4>
+            </div>
+            <div class="upload">
+                <h3>Upload</h3>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
